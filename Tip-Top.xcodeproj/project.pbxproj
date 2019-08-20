@@ -14,6 +14,7 @@
 		9B2E42352301AE72000F35A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E42332301AE72000F35A4 /* LaunchScreen.storyboard */; };
 		9B2E42402301AE73000F35A4 /* Tip_TopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E423F2301AE73000F35A4 /* Tip_TopTests.swift */; };
 		9B2E424B2301AE73000F35A4 /* Tip_TopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E424A2301AE73000F35A4 /* Tip_TopUITests.swift */; };
+		9BC4210A23091234005F5B57 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4210923091234005F5B57 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B2E42462301AE73000F35A4 /* Tip-TopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-TopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2E424A2301AE73000F35A4 /* Tip_TopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_TopUITests.swift; sourceTree = "<group>"; };
 		9B2E424C2301AE73000F35A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC4210923091234005F5B57 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9B2E42312301AE72000F35A4 /* Assets.xcassets */,
 				9B2E42332301AE72000F35A4 /* LaunchScreen.storyboard */,
 				9B2E42362301AE72000F35A4 /* Info.plist */,
+				9BC4210923091234005F5B57 /* icon.png */,
 			);
 			path = "Tip-Top";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC4210A23091234005F5B57 /* icon.png in Resources */,
 				9B2E42352301AE72000F35A4 /* LaunchScreen.storyboard in Resources */,
 				9B2E42322301AE72000F35A4 /* Assets.xcassets in Resources */,
 				9B2E42302301AE6D000F35A4 /* Main.storyboard in Resources */,
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FZHFGA38;
 				INFOPLIST_FILE = "Tip-Top/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.JSA.Tip-Top";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FZHFGA38;
 				INFOPLIST_FILE = "Tip-Top/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.JSA.Tip-Top";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
